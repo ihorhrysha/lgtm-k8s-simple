@@ -1,0 +1,2 @@
+Changing the service selector from app: hello-world to app: my-app will cause a problem. The selector in the Service manifest must match the labels defined in the Deployment's pod template.
+If you want to change the Service selector to app: my-app, you must also update the labels in the Deployment's pod template to match.
