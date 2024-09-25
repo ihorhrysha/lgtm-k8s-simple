@@ -1,0 +1,1 @@
+It is not recommended to store sensitive information such as API keys in a ConfigMap because ConfigMaps are not designed to handle sensitive data securely. Instead, you should use a Kubernetes Secret to store sensitive information.
